@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04676783be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/jorge.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Jordan</span><br>Caramat From Philippines</h1>
+            </div>
+        </div>
+    </div>
+   <!------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about (2).jpg">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>Welcome to my little online space! I'm a talented Front-End Developer with a passion for creating web/app experiences that are both user-friendly and fascinating. I am expert at converting ideas and concepts into seamless, aesthetically pleasing, and highly functional digital interfaces since I have a strong passion for fusing design and technology.</p>
+                   <br>
+                   <p>I'm an artist with pixels and lines of code at my disposal, not just a developer. My interest in web development and app development started with a passion for how websites and software come to life, with the colors, layout, and interaction all working together to captivate visitors. With a background in both programming languages and design ideas, I offer a distinctive mix of aesthetics and functionality to every project I work on.
+                </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Currently I'm 3rd Year Student at PHINMA University of Pangasinan Taking Bachelor of Science and Information Technology Major in System Development</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------Services------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>The practice of creating appealing and useful websites by combining graphic design with user experience concepts is known as web design. It entails maximizing font, color, and layout to produce a powerful brand presence and captivating user engagement. User-centered refinement and responsive design guarantee cross-platform browsing.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Aesthetics and utility are combined in UI/UX design for digital interfaces. UX ensures simple navigation and user pleasure whereas UI concentrates on the visual components and layout. Together, they produce user engagements for digital products that are easy and entertaining.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Making intuitive and visually appealing interfaces for mobile applications is known as app design. It includes both User Experience (UX) design, which assures easy navigation and user delight, and User Interface (UI) design, where aesthetics and layout are maximized. An engaging and natural user experience is created by the seamless integration of functionality and visual aspects in effective app design.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pr1.png">
+                    <div class="layer">
+                        <h3>Flip Flop Floo</h3>
+                        <p>FlipFlopFloo is a quiz app to learn basics python. This will help the student because of it is easy to use and simple to understand.</p>
+                        <a href="https://drive.google.com/drive/folders/1YazgBWUMFd6-cD6A9QnzEQRodQigAA2m"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pr2.png">
+                    <div class="layer">
+                        <h3>Echoes of Resilience</h3>
+                        <p>This is 2d game made in unity. This is all about Adam the musician where he has been depress and suddenly he can't play music instrument again, and he need to find himself again to play music to everyone.</p>
+                        <a href="https://drive.google.com/file/d/13STpcgBXf1YdE-sH34i_XQ_fc9vA5bH0/view?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pr3.png">
+                    <div class="layer">
+                        <h3>Food App</h3>
+                        <p>Food app.Browse a wide selection of recipes, from simple, quick dinners to elaborate feasts. Find ingredients, cooking methods, and dietary preferences quickly. Create grocery lists, plan your meals, and even get step-by-step cooking instructions.</p>
+                        <a href="https://drive.google.com/file/d/14aTCQsXPEabeWXDNOaJekP0VEv1X69zK/view?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!----Contact----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jone.caramat.up@phinmaed.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09496414893</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100008873440256&mibextid=9R9pXO"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/CrazyJorge32?s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/jordan_caramat?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jordan-caramat-02a075253/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="copyright">
+                    <p>Caramat Jordan <i class="fa-solid fa-heart"></i>Front-end Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzB-aO3YJvw5BlqK5M8mNxzCbW-4ardJ2e909NJnO_ukbOXzmFJlRPvzZlvFPeEpxsU3g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Send Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+    
+</body>
+</html>
